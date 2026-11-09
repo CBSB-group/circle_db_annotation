@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#chech arguments
+#check arguments
 
 if [ "$#" -ne 5 ]; then
     echo "Usage: $0 <pdb_file> <chain> <position> <distance> <output_file>"
