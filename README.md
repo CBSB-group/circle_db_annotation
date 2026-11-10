@@ -58,3 +58,17 @@ Execution creates the **`variant_annotation_output.csv`** dataset.
 * **Solvent accessibility** (DSSP)
 * **Charge assignment** (PDB2PQR)
 * **Electrostatic potential** (APBS)
+
+### 4. Usage
+
+Place your input PDB and CSV files inside the `variant_annotation` directory. Inside the folder, to generate mutation data, use the command:
+
+```bash
+python variant_annotation.py -i <input_variants.csv> -p <input_structure.pdb>
+```
+
+To save the results under a custom filename, pass the `-O` flag:
+
+```bash
+python variant_annotation.py -i <input_variants.csv> -p <input_structure.pdb> -O filename.csv
+```
