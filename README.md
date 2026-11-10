@@ -1,4 +1,4 @@
-# circle_db_annotation
+# CIRCLE Variant Annotation Pipeline
 
 A Python-based pipeline for the characterization of missense protein variants.
 
@@ -54,7 +54,7 @@ Execution creates the **`variant_annotation_output.csv`** dataset.
 > [!NOTE]
 > All parameters listed below are reported in pairs: for both the **Wild-Type** residue and the corresponding **Mutated** residue.
 
-* **Secondary structure** (DSSP mapping)
-* **Solvent accessibility** (SASA calculation)
-* **Charge assignment** (PDB2PQR generated)
-* **Electrostatic potential** (APBS calculation)
+* **Secondary structure** (DSSP)
+* **Solvent accessibility** (DSSP)
+* **Charge assignment** (PDB2PQR)
+* **Electrostatic potential** (APBS)
